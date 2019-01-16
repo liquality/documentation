@@ -19,9 +19,9 @@ description: >- # this means to ignore newlines until "baseurl:"
   Your freedom to transact is a human right. Swap cryptocurrencies without middlemen.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
-
+twitter_username: liquality_io
+github_username:  liquality
+medium_username: liquality
 # Build settings
 markdown: kramdown
 theme: minima
