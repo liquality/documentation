@@ -7,7 +7,7 @@ categories: liquality knowledge base
 
 # Swap run through steps
 
-Here we cover the steps required execute a swap using the liquality swap interface. These steps should be executed before committing changes to the master branch of the [liquality-swap](https://github.com/liquality/liquality-swap) repository.
+Here we cover the steps required to execute a swap using the liquality swap interface. These steps should be executed before committing changes to the master branch of the [liquality-swap](https://github.com/liquality/liquality-swap) repository.
 
 # Prerequisite
 
