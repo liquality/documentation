@@ -2,27 +2,29 @@
 
 ## Introduction
 
-Liquality has developed a set of compatibility standards, libraries and reference implementations which allow for a trust minimized swaps between compatible blockchains. 
+This tutorial will guide you through the necessary steps required to run the operational components for executing atomic swaps on your local environment.
 
-These include, a set of standards for cross-chain atomic swaps, an [chain abstraction layer](https://medium.com/liquality/the-missing-tool-to-cross-chain-development-2ebfe898efa1) which simplifies the development of communications between the supported chains as well as a [user interface or front-end](https://github.com/liquality/liquality-swap) and [launcher](https://github.com/liquality/liquality-launcher) and [automated agent or optional back-end](https://github.com/liquality/agent) which utilizes the library. Although each user interface and agent can be executed independently, we have also added integration between the two should you wish to run such a configuration.
+The components covered will include the liquality [swap user interface](https://github.com/liquality/liquality-swap), and an optional [automated agent](https://github.com/liquality/agent). 
+
+The swap interface is a functional reference implementation that facilitates the workflow between two anonymous parties wishing to swap digital assets with minimized counter party risk. The automated agent can be thought of a as a back-office system for those wishing to enable an automated market making system which is complimentary, but independent from the user interface. 
 
 ## Architecture
 
-The approach taken by the contributors have focussed on developing interoperability as a common language and standards over further intermediation of an additional component or third-party blockchain and/or middleware. 
+The approach taken by liquality is focussed on developing interoperability as a common language which favours standards over further intermediation through additional components and/or third-party blockchain middleware. 
 
-The standards currently developed for interoperability include a slightly revised version of [Bitcoin Improvement Proposal 199](https://github.com/bitcoin/bips/blob/master/bip-0199.mediawiki) and a compatibility standards for Etheream called the [Ethereum Improvement Proposal 1630](https://github.com/ethereum/EIPs/issues/1631). 
+Standards currently developed for interoperability include a slightly revised version of [Bitcoin Improvement Proposal 199](https://github.com/bitcoin/bips/blob/master/bip-0199.mediawiki) and a compatibility standards for Etheream called the [Ethereum Improvement Proposal 1630](https://github.com/ethereum/EIPs/issues/1631). 
 
-These standards implement a common language for executing cross-chain atomic swaps between bitcoin, ether, and ERC20 tokens, and form the foundation for extending support for additional digital assets which support [sha256 hashlocks](https://en.bitcoin.it/wiki/Hashlock) and [timelocks](https://en.bitcoin.it/wiki/Timelock). 
+These standards implement a common language for executing cross-chain atomic swaps between bitcoin, ether, and ERC20 tokens, and extending support for additional digital assets which support [sha256 hashlocks](https://en.bitcoin.it/wiki/Hashlock) and [timelocks](https://en.bitcoin.it/wiki/Timelock). 
 
-The below figure shows a high-level view of the liquality stack architecture. 
+The below figure shows a high-level overview of the liquality stack architecture. 
 
 ![Architecture](../assets/architecture.png)
 
-The liquality stack is licensed under the [MIT License](https://github.com/liquality/chainabstractionlayer/blob/dev/LICENSE.md), and is a completely free and open source community project. Each component in the stack aims to ensure that you can run and customize your own instance without any dependency on a third-party. 
+The liquality stack is licensed under the [MIT License](https://github.com/liquality/chainabstractionlayer/blob/dev/LICENSE.md), and is a completely free and open source community project. Each component developed or considered in the stack aims to ensure that you can run and customize your own instance without any dependency on a third-party. 
 
 ## Prerequisites
 
-Before we can invoke an operational instance of the agent and user interface, it is recommended that you execute this against your own environment. This is not a requirement, but suggested to avoid having to delegate trust to any third party. In this tutorial we will guide you through setting up a working stance of the liquality user interface and agent against a local testing configuration.  You can however configure the stack against testnet or mainnet nodes once you feel more comfortable with the setup.
+Before we can invoke an operational instance of the agent and user interface, it is recommended that you install the following prerequisites. This is not a requirement, but suggested to avoid having to delegate trust to any third party. In this tutorial we will guide you through setting up a working stance of the liquality user interface and agent against a local **testing configuration**.  You can however also follow these same steps against testnet or mainnet nodes depending on your requirement and once you feel more comfortable with the setup.
 
 Components which fall out of the scope for the liquality stack and which are required include:
 
@@ -38,7 +40,7 @@ Components which fall out of the scope for the liquality stack and which are req
 
 ## Installing the liquality swap interface
 
-In this section we will be going through the steps required to invoke a local liquality swap interface from your local system. 
+In this section we will be going through the steps required to installing and running a local liquality swap interface from your local system. 
 
 1. Clone the liquality swap interface. 
 
@@ -94,9 +96,9 @@ In this section we will be going through the steps required to invoke a local li
 
 Following the above, you should now have your very own instance of the liquality swap interface up and running on your system. We have also provided a packaged solution which can be downloaded from [the liquality launcher repository](https://github.com/liquality/liquality-launcher/releases).
 
-## Automated Agent
+## Installing the liquality automated agent
 
-In this section we will guide you through the steps to invoke a liquality automated agent which allows for hosting a market making agent that generate quotes, and processes swap requests without any manual intervention.
+In this section we will guide you through the steps to install and run a liquality automated agent. The agent allows for market making, generation and management of orders, and processes swap requests without the need for manual processing.
 
 ### Pre-requisite
 
@@ -114,7 +116,7 @@ MongoDB server version: 4.2.1
 
     `$ git clone https://github.com/liquality/agent`
 
-2. Confirm that you are using the `dev` branch
+2. Confirm that you are using the `dev` branch.
 
     `$ cd ./agent/ && git branch`
 
@@ -127,7 +129,7 @@ MongoDB server version: 4.2.1
     `$ cp ./.env.example ./.env`
     `$ cp ./sample-config.toml ./config.toml`
 
-5. Update the `.env` file to reference the `config.toml` file
+5. Update the `.env` file to reference the `config.toml` file.
   
     `CONFIG_PATH=./config.toml`
 
@@ -258,3 +260,5 @@ Once enabled, your local user interface should present you with a list of availa
 In this tutorial we guided you through setting up a local instance of the liquality swap user interface and complimentary automated agent. 
 
 We encourage developers wishing to develop applications using the liquality libraries or to extend the functionality to submit Pull Requests get in touch via any of your support channels. 
+
+Developers wishing to learn more about the standards and libraries are encouraged to checkout our [Chain Abstraction Layer](http://chainstackjs.org/).
