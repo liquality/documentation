@@ -48,7 +48,7 @@ Components which fall out of the scope for the liquality stack and which are req
 For convenience, we've also added a `docker-compose` script which will setup a local bitcoin and ethereum environment which you can use for testing. 
 
 ```
-$ git clone https://github.com/liquality/liquality-swap/
+$ git clone --branch master https://github.com/liquality/liquality-swap/
 $ cd ./liquality-swap/src/test/integration/environment/
 $ docker-compose up
 ```
@@ -140,7 +140,7 @@ In this section we will be going through the steps required to installing and ru
 
 1. Clone the liquality swap interface. 
 
-    `$ git clone https://github.com/liquality/liquality-swap`
+    `$ git clone --branch master https://github.com/liquality/liquality-swap`
 
     NOTE: We attempt to maintain all work in progress on the `dev` branch, with stable changes being merged to the `master` branch. For the purpose of this tutorial, we will suggest using the development branch as it contains the latest changes required.
 
@@ -210,7 +210,7 @@ MongoDB server version: 4.2.1
 
 1. Clone a copy of the liquality agent.
 
-    `$ git clone https://github.com/liquality/agent`
+    `$ git clone --branch master https://github.com/liquality/agent`
 
 2. Confirm that you are using the `master` branch.
 
