@@ -144,7 +144,7 @@ In this section we will be going through the steps required to installing and ru
 
     NOTE: We attempt to maintain all work in progress on the `dev` branch, with stable changes being merged to the `master` branch. For the purpose of this tutorial, we will suggest using the development branch as it contains the latest changes required.
 
-2. Confirm that you are using the `dev` branch
+2. Confirm that you are using the `master` branch
 
     `$ cd liquality-swap && git branch`
 
@@ -212,7 +212,7 @@ MongoDB server version: 4.2.1
 
     `$ git clone https://github.com/liquality/agent`
 
-2. Confirm that you are using the `dev` branch.
+2. Confirm that you are using the `master` branch.
 
     `$ cd ./agent/ && git branch`
 
