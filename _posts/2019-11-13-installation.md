@@ -37,7 +37,7 @@ Components which fall out of the scope for the liquality stack and which are req
 
 ### Required for the Agent
 
-* [MongoDB](https://www.mongodb.com/) - Required for the agent
+* [MongoDB >= 4.x](https://www.mongodb.com/) - Required for the agent
 
 ### Optional depending on your preferences
 
