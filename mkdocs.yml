@@ -21,6 +21,14 @@ nav:
       - Performing a swap : server/user/index.md
   - Web Extension :
     - Introduction : web_extension/introduction.md
+    - Bitcoin :
+      - Intro : web_extension/bitcoin/introduction.md
+      - Getting Started : web_extension/bitcoin/getting_started.md
+      - Get Connected Network: web_extension/bitcoin/wallet_get_connected_network.md
+      - Get Addresses: web_extension/bitcoin/wallet_get_addresses.md
+      - Sign Message: web_extension/bitcoin/wallet_sign_message.md
+      - Send Transaction: web_extension/bitcoin/wallet_send_transaction.md
+      - Sign PSBT: web_extension/bitcoin/wallet_sign_psbt.md
   - Wallet SDK :
     - Index : sdk/index.md
     - Reference : https://liquality.github.io/chainabstractionlayer/

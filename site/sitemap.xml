@@ -1,47 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
      <loc>https://liquality.io/</loc>
-     <lastmod>2020-06-25</lastmod>
+     <lastmod>2020-11-23</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://liquality.io/getting_started/</loc>
-     <lastmod>2020-06-25</lastmod>
+     <lastmod>2020-11-23</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://liquality.io/getting_started/</loc>
-     <lastmod>2020-06-25</lastmod>
+     <lastmod>2020-11-23</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://liquality.io/server/administration/introduction/</loc>
-     <lastmod>2020-06-25</lastmod>
+     <lastmod>2020-11-23</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://liquality.io/server/administration/architecture/</loc>
-     <lastmod>2020-06-25</lastmod>
+     <lastmod>2020-11-23</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://liquality.io/server/administration/prerequisites/</loc>
-     <lastmod>2020-06-25</lastmod>
+     <lastmod>2020-11-23</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://liquality.io/server/administration/installing_agent/</loc>
-     <lastmod>2020-06-25</lastmod>
+     <lastmod>2020-11-23</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://liquality.io/server/administration/installing_interface/</loc>
-     <lastmod>2020-06-25</lastmod>
+     <lastmod>2020-11-23</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://liquality.io/server/user/</loc>
-     <lastmod>2020-06-25</lastmod>
+     <lastmod>2020-11-23</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://liquality.io/web_extension/introduction/</loc>
-     <lastmod>2020-06-25</lastmod>
+     <lastmod>2020-11-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://liquality.io/web_extension/bitcoin/introduction/</loc>
+     <lastmod>2020-11-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://liquality.io/web_extension/bitcoin/getting_started/</loc>
+     <lastmod>2020-11-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://liquality.io/web_extension/bitcoin/wallet_get_connected_network/</loc>
+     <lastmod>2020-11-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://liquality.io/web_extension/bitcoin/wallet_get_addresses/</loc>
+     <lastmod>2020-11-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://liquality.io/web_extension/bitcoin/wallet_sign_message/</loc>
+     <lastmod>2020-11-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://liquality.io/web_extension/bitcoin/wallet_send_transaction/</loc>
+     <lastmod>2020-11-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://liquality.io/web_extension/bitcoin/wallet_sign_psbt/</loc>
+     <lastmod>2020-11-23</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://liquality.io/sdk/</loc>
-     <lastmod>2020-06-25</lastmod>
+     <lastmod>2020-11-23</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
