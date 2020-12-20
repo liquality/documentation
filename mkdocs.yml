@@ -34,7 +34,7 @@ nav:
     - Reference : https://liquality.github.io/chainabstractionlayer/
 theme:
     name: material
-    logo: /assets/logo.png
+    logo: https://liquality.io/images/LiqualityHorizontal.svg
     language: en  
     include_homepage_in_sidebar: false
     collapse_navigation: false
