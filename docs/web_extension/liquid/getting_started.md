@@ -71,4 +71,5 @@ For example: We can retrieve 10 addresses using the `wallet_getAddresses` method
 - [wallet_getAddresses](../wallet_get_addresses)
 - [wallet_signMessage](../wallet_sign_message)
 - [wallet_sendTransaction](../wallet_send_transaction)
+- [wallet_blindPSET](../wallet_blind_pset)
 - [wallet_signPSET](../wallet_sign_pset)
