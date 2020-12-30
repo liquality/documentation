@@ -8,8 +8,9 @@ None
 
 ## Returns
 
-- `Object` - The current bitcoin network object
+- `Object` - The current liquid network object
   - `bech32`: `String`
+  - `blech32`: `String`
   - `bip32`: `Object { public, private }`
   - `coinType`: `String`
   - `isTestnet`: `Boolean`
@@ -18,24 +19,30 @@ None
   - `pubKeyHash`: `Number`
   - `scriptHash`: `Number`
   - `wif`: `Number`
+  - `confidentialPrefix`: `Number`
+  - `assetHash`: `String`
+
 
 ## Example
 
 ```js
-> await bitcoin.request({ method: 'wallet_getConnectedNetwork', params: [] })
+> await liquid.request({ method: 'wallet_getConnectedNetwork', params: [] })
 
 {
-  "name": "bitcoin_testnet",
-  "messagePrefix": "\u0018Bitcoin Signed Message:\n",
-  "bech32": "tb",
+  "name": "liquid_regtest",
+  "messagePrefix": "\x18Liquid Signed Message:\n",
+  "bech32": "ert",
+  "blech32": "el",
   "bip32": {
-    "public": 70617039,
-    "private": 70615956
+    "public": 0x043587cf,
+    "private": 0x04358394
   },
-  "pubKeyHash": 111,
-  "scriptHash": 196,
-  "wif": 239,
+  "pubKeyHash": 235,
+  "scriptHash": 75,
+  "wif": 0xef,
   "coinType": "1",
-  "isTestnet": true
+  "isTestnet": true,
+  "confidentialPrefix": 4,
+  "assetHash": "5ac9f65c0efcc4775e0baec4ec03abdde22473cd3cf33c0419ca290e0751b225",
 }
 ```
