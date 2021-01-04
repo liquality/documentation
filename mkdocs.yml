@@ -6,46 +6,55 @@ repo_name: liquality/docs
 repo_url: https://github.com/liquality/
 copyright: Copyright &copy; 2018 - 2020 Liquality
 nav:
-  - Welcome : index.md
-  - Getting Started : getting_started.md
-  - Tutorials : getting_started.md
-  - Examples : examples.md
-  - Value Management System :
-    - Introduction : server/administration/introduction.md
-    - Architecture : server/administration/architecture.md
-    - Installation :
-      - Prerequisites : server/administration/prerequisites.md
-      - Server : server/administration/installing_agent.md
-      - Client : server/administration/installing_interface.md
-    - User Guide : 
-      - Performing a swap : server/user/index.md
-  - Web Extension :
-    - Introduction : web_extension/introduction.md
-    - Bitcoin :
-      - Intro : web_extension/bitcoin/introduction.md
-      - Getting Started : web_extension/bitcoin/getting_started.md
-      - Get Connected Network: web_extension/bitcoin/wallet_get_connected_network.md
-      - Get Addresses: web_extension/bitcoin/wallet_get_addresses.md
-      - Sign Message: web_extension/bitcoin/wallet_sign_message.md
-      - Send Transaction: web_extension/bitcoin/wallet_send_transaction.md
-      - Sign PSBT: web_extension/bitcoin/wallet_sign_psbt.md
-  - Wallet SDK :
-    - Index : sdk/index.md
-    - Reference : https://liquality.github.io/chainabstractionlayer/
+  - Welcome: index.md
+  - Getting Started: getting_started.md
+  - Tutorials: getting_started.md
+  - Examples: examples.md
+  - Value Management System:
+      - Introduction: server/administration/introduction.md
+      - Architecture: server/administration/architecture.md
+      - Installation:
+          - Prerequisites: server/administration/prerequisites.md
+          - Server: server/administration/installing_agent.md
+          - Client: server/administration/installing_interface.md
+      - User Guide:
+          - Performing a swap: server/user/index.md
+  - Web Extension:
+      - Introduction: web_extension/introduction.md
+      - Bitcoin:
+          - Intro: web_extension/bitcoin/introduction.md
+          - Getting Started: web_extension/bitcoin/getting_started.md
+          - Get Connected Network: web_extension/bitcoin/wallet_get_connected_network.md
+          - Get Addresses: web_extension/bitcoin/wallet_get_addresses.md
+          - Sign Message: web_extension/bitcoin/wallet_sign_message.md
+          - Send Transaction: web_extension/bitcoin/wallet_send_transaction.md
+          - Sign PSBT: web_extension/bitcoin/wallet_sign_psbt.md
+      - Liquid:
+          - Intro: web_extension/liquid/introduction.md
+          - Getting Started: web_extension/liquid/getting_started.md
+          - Get Connected Network: web_extension/liquid/wallet_get_connected_network.md
+          - Get Addresses: web_extension/liquid/wallet_get_addresses.md
+          - Sign Message: web_extension/liquid/wallet_sign_message.md
+          - Send Transaction: web_extension/liquid/wallet_send_transaction.md
+          - Blind PSET: web_extension/liquid/wallet_blind_pset.md
+          - Sign PSET: web_extension/liquid/wallet_sign_pset.md
+  - Wallet SDK:
+      - Index: sdk/index.md
+      - Reference: https://liquality.github.io/chainabstractionlayer/
 theme:
-    name: material
-    logo: https://liquality.io/images/LiqualityHorizontal.svg
-    language: en  
-    include_homepage_in_sidebar: false
-    collapse_navigation: false
-    features:
-        - tabs
-    palette:
-        primary: #9339fc
-        accent: #9339fc
-    font:
-        text: Roboto
-        code: Roboto Mono
+  name: material
+  logo: https://liquality.io/images/LiqualityHorizontal.svg
+  language: en
+  include_homepage_in_sidebar: false
+  collapse_navigation: false
+  features:
+    - tabs
+  palette:
+    primary: #9339fc
+    accent: #9339fc
+  font:
+    text: Roboto
+    code: Roboto Mono
 extra:
   social:
     - icon: fontawesome/brands/github-alt
