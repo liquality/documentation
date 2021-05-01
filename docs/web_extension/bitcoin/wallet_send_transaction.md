@@ -4,7 +4,7 @@ Send an amount to address
 
 ## Parameters
 
-1. `address`: `String` - The message to sign
+1. `address`: `String` - The recipient address
 2. `amount`: `Number` - Amount in satoshis to send
 
 ```js
